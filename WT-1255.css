@@ -1,0 +1,91 @@
+nav.nav-bg{
+    background-color: #2d3e50 !important;
+} 
+
+.avatar-bg{
+    background-color: #1bbc9b !important;
+    width: 100% !important;
+}
+
+.img-bg{
+    height: 500px;
+}
+.information{
+    margin-top: -6rem;
+    margin-left: 37rem;
+}
+
+.paragraf{
+    margin-left: -3rem;
+}
+
+.page-section-heading{
+    font-size: 3rem;
+    color: #2d3e50;
+    font-weight: 600;
+}
+
+.about-container{
+    background-color: #1bbc9b;
+    height: 400px;
+    font-family: sans-serif;
+
+}
+
+.paragraf{
+    margin-left: 19rem;
+} 
+
+.paragraf-2{
+    margin-left: 44rem;
+    margin-top: -8.5rem;
+}
+
+.button-1{
+    margin-left: 36rem;
+    margin-top: 2rem;
+}
+
+.about-2{
+    background-color: #2d3e50;
+    height: 250px;
+}
+
+.location{
+    margin-left: 10rem;
+}
+
+.paragraf-3{
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
+.around{
+    margin-top: -7rem;
+    margin-left: 34rem;
+}
+
+.paragraf-4{
+    margin-left: 33rem;
+    margin-top: 1rem;
+}
+
+.about-3{
+    margin-left: 63rem;
+    margin-top: -7rem;
+}
+
+.paragraf-6{
+    margin-left: 60rem;
+}
+.about-4{
+    background:#1b252f;
+    height: 50px;
+}
+
+.paragraf-7 {
+    margin-left: 35rem;
+}
+.paragraf-10{
+    margin-left: -3rem;
+}
