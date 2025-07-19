@@ -1,71 +1,79 @@
-[Proje Adı] - Bootstrap ile Kişisel Portföy/Tanıtım Sayfası
-Bu depo, Bootstrap çerçevesini kullanarak oluşturulmuş modern ve duyarlı bir kişisel portföy veya tanıtım sayfası şablonunu içermektedir. Proje, temiz bir tasarıma ve kullanımı kolay, özelleştirilebilir bir yapıya sahiptir.
+Bootstrap ve CSS ile Web Tasarımı Uygulaması
+Bu depo, Bootstrap 5 ve özel CSS kullanılarak hazırlanmış bir web arayüzü projesini içermektedir. Proje kapsamında modern web tasarımında kullanılan temel bileşenler, responsive yapı, sayfa düzenleme, grid sistemi ve stil katmanları gibi pek çok özellik örneklenmiştir.
+Amacım, HTML, CSS ve Bootstrap bilgimi pratikle pekiştirmek ve gerçek dünya arayüzlerine yakın tasarımlar oluşturmaktır.
 
-Özellikler
-Duyarlı Tasarım: Sayfa, farklı ekran boyutlarına (mobil, tablet, masaüstü) uyumlu olarak tasarlanmıştır.
+🔧 Kullanılan Teknolojiler
+HTML5
 
-Modern UI: Temiz ve çekici bir kullanıcı arayüzü sunar.
+CSS3 (özelleştirilmiş)
 
-Bootstrap 5.x: En son Bootstrap sürümü kullanılarak geliştirilmiştir.
+Bootstrap 5.3
 
-Kişiselleştirilebilir: Renkler, yazı tipleri ve içerikler kolayca değiştirilebilir.
+Google Fonts / Font Awesome (isteğe bağlı)
 
-Navigasyon Menüsü: Sayfa içi gezinmeyi sağlayan sabit bir navigasyon çubuğu.
+📁 Proje Yapısı
+Depodaki dosya ve stiller aşağıdaki yapıyı içermektedir:
 
-Avatar ve Başlık Bölümü: Kişisel fotoğrafınızı ve kısa tanıtımınızı sergilemek için ideal.
+1. Header ve Navigasyon
+nav.nav-bg: Özel arka plan rengiyle tanımlanmış responsive navbar yapısı.
 
-Portföy Galerisi: Resimlerinizi veya projelerinizi sergileyebileceğiniz bir galeri alanı.
+Bootstrap sınıfları kullanılarak mobil uyumlu hale getirilmiştir.
 
-Hakkımda Bölümü: Kendiniz veya projeniz hakkında detaylı bilgi verebileceğiniz iki sütunlu bir bölüm.
+2. Avatar ve Tanıtım Alanı
+.avatar-bg, .img-bg, .information:
+Sayfanın üst bölümünde yer alan avatar görseli, isim ve kısa tanıtım bilgisi.
 
-İletişim/Bilgi Bölümü (Footer): Konum, sosyal medya bağlantıları ve kısa açıklama için alt bilgi alanı.
+Görsel hizalama ve metin düzenlemeleri custom CSS ile yapılmıştır.
 
-Kullanılan Teknolojiler
-HTML5: Sayfa yapısını oluşturmak için.
+3. Portfolio Bölümü
+Responsive grid yapısıyla oluşturulmuş 6 görsellik portföy alanı.
 
-CSS3: Sayfa stilini ve düzenini sağlamak için.
+Bootstrap'ın row ve col yapılarıyla dinamik hale getirilmiştir.
 
-Bootstrap 5.3.3: Duyarlılık ve UI bileşenleri için CSS ve JavaScript çerçevesi.
+4. Hakkımda (About) Alanı
+.about-container: Yeşil zemin üzerine 2 farklı paragraf ve çağrı butonu (FREE DOWNLOAD).
 
-Kurulum ve Kullanım
-Projeyi yerel makinenizde çalıştırmak veya incelemek için aşağıdaki adımları takip edebilirsiniz:
+.paragraf, .paragraf-2, .button-1: Elemanların hizalanması özel margin değerleriyle ayarlanmıştır.
 
-Depoyu klonlayın:
+5. Ek Bilgiler (Alt Bilgi Alanı)
+.about-2 (Konum, Sosyal Medya, Bilgilendirme):
+Üç sütun şeklinde konum, sosyal medya ve lisans bilgileri verilmektedir.
 
-Bash
+.location, .around, .about-3: Her başlık ve açıklama kendi içinde düzenlenmiştir.
 
-git clone https://github.com/KULLANICI_ADINIZ/[PROJE_ADINIZ].git
-Proje dizinine gidin:
+6. Footer
+.about-4, .paragraf-7:
+Alt kısımda yer alan sade bir telif (copyright) bilgisi içerir.
 
-Bash
+💡 Özelleştirilmiş CSS Sınıfları
+Projede Bootstrap dışında kullanılan özel sınıfların bazıları:
 
-cd [PROJE_ADINIZ]
-index.html dosyasını favori web tarayıcınızda açın.
+Sınıf Adı	Açıklama
+.nav-bg	Navbar arka plan rengi
+.avatar-bg	Avatar bölümünün arka plan rengi
+.img-bg	Avatar görselinin yüksekliği
+.information, .paragraf-*	Metin yerleşimi ve hizalama
+.about-container, .about-2, .about-4	Hakkımda ve footer bölümleri arka plan düzenlemeleri
+.button-1	Çağrı butonunun konumu
 
-Dosya Yapısı
-index.html: Ana HTML dosyası.
+📌 Notlar
+Tüm görseller /resimler/ klasörüne yerleştirilmelidir.
 
-WT-1255.css: Özel CSS stilleri.
+Proje responsive olarak Bootstrap ızgara sistemi ile yapılandırılmıştır.
 
-resimler/: Kullanılan görsellerin bulunduğu dizin (örneğin, avataaars.svg, cabin.png vb.).
+.css dosyası WT-1255.css adıyla dışarıdan çağrılmaktadır.
 
-Ekran Görüntüleri
-(Buraya projenizin farklı bölümlerine ait ekran görüntülerini ekleyebilirsiniz. Bu, projenizi daha görsel hale getirecektir.)
+!important kullanımı sınırlı ama belirli stil önceliklendirmesi için gereklidir.
 
-Katkıda Bulunma
-Eğer projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
+🖥️ Görsel Tasarım Hedefi
+Minimal ve okunabilir bir yapı
 
-Depoyu fork edin.
+Renk uyumu (yeşil-turkuaz tonları ile koyu zemin kontrastı)
 
-Yeni bir dal (branch) oluşturun: git checkout -b ozellik/yeni-ozellik
+Mobil uyumlu grid sistemi
 
-Değişikliklerinizi yapın ve commit edin: git commit -m "feat: Yeni özellik eklendi"
+Görsel ağırlıklı tanıtım
 
-Dalı push edin: git push origin ozellik/yeni-ozellik
-
-Bir Pull Request (Çekme İsteği) oluşturun.
-
-Lisans
-Bu proje açık kaynaklıdır ve MIT Lisansı altında lisanslanmıştır. (Eğer bir LICENSE dosyası ekleyecekseniz bu kısmı kullanabilirsiniz.)
-
-NOT: Lütfen [Proje Adı], KULLANICI_ADINIZ ve [PROJE_ADINIZ] yer tutucularını kendi projenizin ve GitHub bilgilerinizle değiştirmeyi unutmayın. Ayrıca, resimler/ klasöründeki dosya yollarının doğru olduğundan emin olun.
+📄 Lisans
+Bu proje MIT lisansı ile lisanslanmıştır.
+Tasarım şablonu: Start Bootstrap – Freelancer Teması
